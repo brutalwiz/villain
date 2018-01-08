@@ -72,6 +72,12 @@ util.AddNetworkString("ServerMsg")
 hook.Add("PlayerDeath","DoStuffPlayerDeath",function(victim, inflictor, attacker)
 			
 			-- CONSECUTIVE VILLAINS
+
+			--SUICIDE WIN sollte gefixed sein--
+			if (victim == attacker) then
+				attacker:AddFrags( -4 )
+				--PrintMessage( HUD_PRINTTALK, " x3" )
+			end
 			
            if (attacker:CanUseFlashlight() == true) and (victim ~= attacker) then
 				attacker:AddFrags( 2 )
@@ -81,12 +87,7 @@ hook.Add("PlayerDeath","DoStuffPlayerDeath",function(victim, inflictor, attacker
 			if (victim:CanUseFlashlight() == true) and (victim ~= attacker) then
 				attacker:AddFrags( 2 )
 				--PrintMessage( HUD_PRINTTALK, " x3" )
-			end
-			
-			if (victim == attacker) then
-				attacker:AddFrags( -4 )
-				--PrintMessage( HUD_PRINTTALK, " x3" )
-			end
+			end		
 			
 			if ( attacker:Frags() >= 20 ) then
 					PrintMessage( HUD_PRINTTALK, attacker:Name() .. " has won the round!" )

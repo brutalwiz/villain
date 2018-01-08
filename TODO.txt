@@ -1,5 +1,5 @@
 - Beacon über gedroppten waffen
-- BUG: Win with suizide
+- BUG: Win with suizide -Sollte gefixed sein, muss man testen-
 - Assaultrifle Buffen
 - Crowbar insta kill
 - SMG BUG: keine muni beim eufheben
