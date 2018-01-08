@@ -1,6 +1,7 @@
 include("shared.lua")
 include("testhud.lua")
 
+
 --[[sound.Add( {
 	name = "villainSound",
 	channel = CHAN_STATIC,
@@ -47,7 +48,7 @@ function GM:HUDDrawTargetID()
 end
 
 function GM:SpawnMenuOpen()
-    return false
+	return false
 end
 
 function GM:PlayerNoClip(ply)
