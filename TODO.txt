@@ -1,0 +1,13 @@
+- Beacon über gedroppten waffen
+- BUG: Win with suizide
+- Assaultrifle Buffen
+- Crowbar insta kill
+- SMG BUG: keine muni beim eufheben
+- 30 sec pre-game phase
+- Gescheiter END Screen
+- GUI VIllain anzeige
+- Mehr muni SMG 
+- Shotgun/Negev
+- Nicht 2 mal gleicher Villain
+- Chat farben ändern
+- Willkommens msg
