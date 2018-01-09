@@ -4,8 +4,9 @@ AddCSLuaFile("resources.lua")
 AddCSLuaFile("testhud.lua")
 AddCSLuaFile("dash.lua")
 AddCSLuaFile("map_handling.lua")
+AddCSLuaFile("roundController/cl_roundController.lua")
 
-
+include("roundController/sv_roundController.lua")
 include("shared.lua")
 include("resources.lua")
 include("dash.lua")
