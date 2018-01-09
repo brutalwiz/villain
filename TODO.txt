@@ -12,3 +12,4 @@
 - Chat farben ändern
 - Willkommens msg
 - FIX Scoreboard
+- waffen droppen und wieder aufheben lädt waffe neu..
