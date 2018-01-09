@@ -4,8 +4,8 @@ resource.AddWorkshop( "108720350" ) -- AWP
 resource.AddWorkshop( "166165013" ) -- Hitler Modell
 
 --[[ alarm sounds --]]
-resource.AddFile("sounds/ps.wav")
-resource.AddFile("sounds/v.wav")
-resource.AddFile("sounds/l.wav")
-resource.AddFile("sounds/m.wav")
-resource.AddFile("sounds/n.wav")
+resource.AddFile("sound/ps.wav")
+resource.AddFile("sound/v.wav")
+resource.AddFile("sound/l.wav")
+resource.AddFile("sound/m.wav")
+resource.AddFile("sound/n.wav")
