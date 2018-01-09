@@ -11,3 +11,4 @@
 - Nicht 2 mal gleicher Villain
 - Chat farben ändern
 - Willkommens msg
+- FIX Scoreboard
