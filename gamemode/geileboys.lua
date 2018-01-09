@@ -41,19 +41,19 @@ end
 function welcheBoyAlarm(ply)
 	if (GetConVarNumber("sv_geileboys") == 1) then
 		if ply:SteamID() == "STEAM_0:0:64912419" --[[ PS --]] then
-			ReadSound("ps.wav")
+			ReadSound("ps.mp3")
 		end
 		if ply:SteamID() == "STEAM_0:1:32816605" --[[ N --]] then
-			ReadSound("n.wav")
+			ReadSound("n.mp3")
 		end
 		if ply:SteamID() == "STEAM_0:0:35756073" --[[ L --]] then
-			ReadSound("l.wav")
+			ReadSound("l.mp3")
 		end
 		if ply:SteamID() == "STEAM_0:0:43369543" --[[ V --]] then
-			ReadSound("v.wav")
+			ReadSound("v.mp3")
 		end
 		if ply:SteamID() == "STEAM_0:0:43369543" --[[ M --]] then
-			ReadSound("m.wav")
+			ReadSound("m.mp3")
 		end
 	end
 end
