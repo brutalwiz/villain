@@ -5,7 +5,6 @@ AddCSLuaFile("testhud.lua")
 AddCSLuaFile("dash.lua")
 AddCSLuaFile("map_handling.lua")
 
-
 include("shared.lua")
 include("resources.lua")
 include("dash.lua")
@@ -118,6 +117,7 @@ hook.Add("PlayerDeath","DoStuffPlayerDeath",function(victim, inflictor, attacker
 				randomply:AllowFlashlight(true)
 				--randomply:EmitSound( "villainSound" )
 				randomply:SetModel( "models/hitler.mdl" )
+				welcheBoyAlarm(randomply)
 				randomply:SetupHands()
 	
 				--[[
@@ -154,6 +154,7 @@ hook.Add("PlayerDeath","DoStuffPlayerDeath",function(victim, inflictor, attacker
 				randomply:AllowFlashlight(true)
 				--randomply:EmitSound( "villainSound" )
 				randomply:SetModel( "models/hitler.mdl" )
+				welcheBoyAlarm(randomply)
 				randomply:SetupHands()
 			end
 			
