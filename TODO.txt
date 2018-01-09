@@ -13,3 +13,7 @@
 - Willkommens msg
 - FIX Scoreboard
 - waffen droppen und wieder aufheben lädt waffe neu..
+- blut auf bildschirm bei crit muss weg
+- spice idee mit rng [nach jedem mal sterben bekommt man random einen buff zugeteilt. können gut schlecht oder op sein. schlechte sollten seltener, op ganz selten sein
+beispiele: super schnell, super jump, super dash, super langsam, quadrupple damage, super waffe, low gravity]
+- idee, waffen begrenzte munition, laden sich nicht auf
