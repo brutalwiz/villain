@@ -4,12 +4,15 @@ AddCSLuaFile("resources.lua")
 AddCSLuaFile("testhud.lua")
 AddCSLuaFile("dash.lua")
 AddCSLuaFile("map_handling.lua")
+AddCSLuaFile("geileboys.lua")
+
 
 include("shared.lua")
 include("resources.lua")
 include("dash.lua")
 include("weapon_handling.lua")
 include("map_handling.lua")
+include("geileboys.lua")
 
 --[[sound.Add( {
 	name = "villainSound",
