@@ -14,6 +14,10 @@ include("weapon_handling.lua")
 include("map_handling.lua")
 include("geileboys.lua")
 
+function GM:PlayerNoClip(ply)
+	return false
+end
+
 --[[sound.Add( {
 	name = "villainSound",
 	channel = CHAN_STATIC,

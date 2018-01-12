@@ -51,10 +51,6 @@ function GM:SpawnMenuOpen()
 	return false
 end
 
-function GM:PlayerNoClip(ply)
-	return false
-end
-
 function GM:ContextMenuOpen()
 	return false
 end

@@ -52,7 +52,7 @@ function welcheBoyAlarm(ply)
 		if ply:SteamID() == "STEAM_0:0:43369543" --[[ V --]] then
 			ReadSound("v.mp3")
 		end
-		if ply:SteamID() == "STEAM_0:0:43369543" --[[ M --]] then
+		if ply:SteamID() == "STEAM_0:1:36763534" --[[ M --]] then
 			ReadSound("m.mp3")
 		end
 	end
