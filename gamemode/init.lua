@@ -5,6 +5,7 @@ AddCSLuaFile("testhud.lua")
 AddCSLuaFile("dash.lua")
 AddCSLuaFile("map_handling.lua")
 AddCSLuaFile("geileboys.lua")
+AddCSLuaFile("buffs.lua")
 
 
 include("shared.lua")
@@ -13,6 +14,7 @@ include("dash.lua")
 include("weapon_handling.lua")
 include("map_handling.lua")
 include("geileboys.lua")
+include("buffs.lua")
 
 function GM:PlayerNoClip(ply)
 	return false
@@ -42,12 +44,13 @@ function GM:PlayerSpawn(ply)
 	ply:SetWalkSpeed(430)
 	ply:Give("weapon_crowbar")
 	ply:Give("weapon_357")
-	ply:GiveAmmo(999, "357");
+	ply:GiveAmmo(999, "357")
 	--ply:Give("weapon_smg1")
 	--ply:GiveAmmo(999, "smg1");
 	--ply:Give("weapon_ar2")
 	--ply:Give("bb_awp_alt")
 	--ply:Give("gidzco_shrekzooka")
+	selectBuff(ply)
 	if ply:CanUseFlashlight() == false then
 		ply:SetModel( "models/player/breen.mdl" )
 		ply:SetupHands()
