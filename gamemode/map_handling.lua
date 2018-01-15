@@ -93,3 +93,27 @@ if game.GetMap() == "dm_arena_4way" then
 		spawnAWP:Spawn()
 	end )
 end	
+
+if game.GetMap() == "vl_der_fuerst" then
+	hook.Add( "InitPostEntity", "weaponsOther", function()
+		-- Shrekzooka
+		local spawnShrekzooka = ents.Create( "gidzco_shrekzooka" )
+		spawnShrekzooka:SetPos( Vector( 1547.05, -1537.34, 704.03 ) )
+		spawnShrekzooka:Spawn()
+		
+		-- SMG
+		--[[local spawnSMG = ents.Create( "weapon_smg1" )
+		spawnSMG:SetPos( Vector( -368.3, 361.7, 64.0 ) )
+		spawnSMG:Spawn()--]]
+		
+		-- Assault Rifle
+		local spawnAR = ents.Create( "weapon_ar2" )
+		spawnAR:SetPos( Vector( -1486.68, -1559.86, 704.03 ) )
+		spawnAR:Spawn()
+		
+		-- AWP
+		local spawnAWP = ents.Create( "bb_awp_alt" )
+		spawnAWP:SetPos( Vector( -1459.11, 1581.08, 704 ) )
+		spawnAWP:Spawn()
+	end )
+end	
