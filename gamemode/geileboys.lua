@@ -57,3 +57,23 @@ function welcheBoyAlarm(ply)
 		end
 	end
 end
+
+--[[ CUSTOM PLAYERMODELS --]]
+
+function customModelForTheBoys(ply)
+	if ply:SteamID() == "STEAM_0:0:64912419" --[[ PS --]] then
+		ply:SetModel( "models/t37/papaj.mdl" )
+	end
+	if ply:SteamID() == "STEAM_0:1:32816605" --[[ N --]] then
+		--ply:SetModel( "models/player/breen.mdl" )
+	end
+	if ply:SteamID() == "STEAM_0:0:35756073" --[[ L --]] then
+		ply:SetModel( "models/player/voikanaa/snoop_dogg.mdl" )
+	end
+	if ply:SteamID() == "STEAM_0:0:43369543" --[[ V --]] then
+		ply:SetModel( "models/player/overwatch/genji.mdl" )
+	end
+	if ply:SteamID() == "STEAM_0:1:36763534" --[[ M --]] then
+		ply:SetModel( "models/rottweiler/morganfreeman.mdl" )
+	end
+end

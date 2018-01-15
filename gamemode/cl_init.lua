@@ -54,3 +54,10 @@ end
 function GM:ContextMenuOpen()
 	return false
 end
+
+function HideThings( name )
+	if (name == "CHudDamageIndicator" ) then
+		return false
+	end
+end
+hook.Add( "HUDShouldDraw", "HideThings", HideThings )

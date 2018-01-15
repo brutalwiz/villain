@@ -37,11 +37,24 @@ function GM:GetFallDamage( ply, speed )
 	return false
 end
 
+--[[function createTimers(ply)
+	print("check")
+	timer.Create("initTimer", 1, 20, 
+		function(ply) 
+			ply:SetRunSpeed(0)
+			ply:SetWalkSpeed(0)
+		end 
+	)
+end
+
+hook.Add( "InitPostEntity", "Start timer", createTimers(ply))--]]
+
 function GM:PlayerSpawn(ply)
 	ply:SetGravity(.8)
 	ply:SetMaxHealth(100)
 	ply:SetRunSpeed(430)
 	ply:SetWalkSpeed(430)
+	ply:SetJumpPower(160)
 	ply:Give("weapon_crowbar")
 	ply:Give("weapon_357")
 	ply:GiveAmmo(999, "357")
@@ -53,6 +66,7 @@ function GM:PlayerSpawn(ply)
 	selectBuff(ply)
 	if ply:CanUseFlashlight() == false then
 		ply:SetModel( "models/player/breen.mdl" )
+		customModelForTheBoys(ply)
 		ply:SetupHands()
 	end
 	--ply:Give("bb_awp_alt")
@@ -120,6 +134,7 @@ hook.Add("PlayerDeath","DoStuffPlayerDeath",function(victim, inflictor, attacker
 				victim:AllowFlashlight(false);
 				--victim:StopSound( "villainSound" )
 				victim:SetModel( "models/player/breen.mdl" )
+				customModelForTheBoys(victim)
 				victim:SetupHands()
 			
 				local randomply = player.GetAll()[math.random(1,#player.GetAll())]

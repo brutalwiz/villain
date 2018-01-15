@@ -1,6 +1,6 @@
 function buffFast(ply)
-	ply:SetRunSpeed(860)
-	ply:SetWalkSpeed(860)
+	ply:SetRunSpeed(645)
+	ply:SetWalkSpeed(645)
 	print("buffFast")
 end
 
