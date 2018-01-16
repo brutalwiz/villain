@@ -55,6 +55,8 @@ function welcheBoyAlarm(ply)
 		if ply:SteamID() == "STEAM_0:1:36763534" --[[ M --]] then
 			ReadSound("m.mp3")
 		end
+	else
+		ReadSound("alarm.mp3")
 	end
 end
 
@@ -75,5 +77,8 @@ function customModelForTheBoys(ply)
 	end
 	if ply:SteamID() == "STEAM_0:1:36763534" --[[ M --]] then
 		ply:SetModel( "models/rottweiler/morganfreeman.mdl" )
+	end
+	if ply:SteamID() == "STEAM_0:1:36889957" --[[J]] then
+		ply:SetModel("models/player/tfa_ow_mercy.mdl")
 	end
 end

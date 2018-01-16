@@ -9,6 +9,7 @@ resource.AddWorkshop( "780996766" ) -- M
 resource.AddWorkshop( "971885726" ) -- V
 resource.AddWorkshop( "775344741" ) -- L
 resource.AddWorkshop( "1263024280" ) -- PS
+resource.AddWorkshop("726644424") -- J
 
 --[[ alarm sounds --]]
 resource.AddFile("sound/ps.mp3")
@@ -16,6 +17,7 @@ resource.AddFile("sound/v.mp3")
 resource.AddFile("sound/l.mp3")
 resource.AddFile("sound/m.mp3")
 resource.AddFile("sound/n.mp3")
+resource.AddFile("sound/alarm.mp3")
 
 --[[ textures --]]
 
