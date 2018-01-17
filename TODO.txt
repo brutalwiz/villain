@@ -17,3 +17,13 @@
 - spice idee mit rng [nach jedem mal sterben bekommt man random einen buff zugeteilt. können gut schlecht oder op sein. schlechte sollten seltener, op ganz selten sein
 beispiele: super schnell, super jump, super dash, super langsam, quadrupple damage, super waffe, low gravity] -- testversion ist eingebaut
 - idee, waffen begrenzte munition, laden sich nicht auf
+
+---
+neue waffen
+
+bb_css_c4_alt
+bb_cssfrag_alt
+weapon_csgo_m4a4
+bb_m3_alt
+awp_gentleman
+---
