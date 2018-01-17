@@ -1,6 +1,7 @@
 function buffFast(ply)
 	ply:SetRunSpeed(800)
 	ply:SetWalkSpeed(800)
+	print("buffFast")
 end
 
 function buffSuperJump(ply)
